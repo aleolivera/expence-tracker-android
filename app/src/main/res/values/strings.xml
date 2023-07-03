@@ -1,0 +1,82 @@
+<resources>
+    <!-- NAMES-->
+    <string name="app_name">Expence tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_summary">Summary</string>
+    <string name="title_search">Search</string>
+
+    <!-- MENU -->
+    <string name="menu_open">Open</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- CARDS -->
+    <string name="card_month_name">January</string>
+    <string name="card_incomes">Incomes $200000</string>
+    <string name="card_expences">Expences $150000</string>
+    <string name="card_balance">Balance $50000</string>
+    <string name="card_transaction_description">Fernet</string>
+    <string name="card_transaction_price">$2500</string>
+    <string name="card_transaction_day">Day 20</string>
+
+    <!-- DIALOGS -->
+    <string name="dialog_incomes">Incomes $200000</string>
+    <string name="dialog_salary">Salary $120000</string>
+    <string name="dialog_paid_job">Paid job $20000</string>
+    <string name="dialog_other">Other $20000</string>
+    <string name="dialog_expences">Expences $100000</string>
+    <string name="dialog_supplies">Supplies $5200</string>
+    <string name="dialog_services">Services $8000</string>
+    <string name="dialog_fun">Fun $10000</string>
+    <string name="dialog_clothes">Clothes $8000</string>
+    <string name="dialog_gifts">Gifts $5200</string>
+    <string name="dialog_health">Health $8000</string>
+    <string name="dialog_education">Education $5200</string>
+    <string name="dialog_balance">Balance $100000</string>
+    <string name="dialog_date">12/6/2023</string>
+    <string name="dialog_description">Description</string>
+    <string name="dialog_price">$2200</string>
+    <string name="dialog_category">fun</string>
+
+    <!-- LABELS -->
+    <string name="label_description">Description</string>
+    <string name="label_price">Price</string>
+
+    <!-- HOME FRAGMENT -->
+    <string name="home_date">25 October</string>
+    <string name="home_incomes">Incomes $200000</string>
+    <string name="home_salary">Salary $120000</string>
+    <string name="home_paid_job">Paid job $20000</string>
+    <string name="home_other">Other $20000</string>
+    <string name="home_expences">Expences $100000</string>
+    <string name="home_supplies">Supplies $5200</string>
+    <string name="home_services">Services $8000</string>
+    <string name="home_fun">Fun $10000</string>
+    <string name="home_clothes">Clothes $8000</string>
+    <string name="home_gifts">Gifts $5200</string>
+    <string name="home_health">Health $8000</string>
+    <string name="home_education">Education $5200</string>
+    <string name="home_balance">Balance $100000</string>
+
+    <!-- SUMARY FRAGMENT -->
+    <string name="summary_date">25 October</string>
+    <string name="ex_fab_summary_text">Filter</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- CONTENT DESCRIPTION-->
+    <string name="fab_home_content_description">Add Transaction</string>
+    <string name="ex_fab_summary_content_description">Filter list by month and year</string>
+
+    <string name="image_description_incomes">Income transactions icon</string>
+    <string name="image_description_expences">Expence transactions icon</string>
+    <string name="image_description_balance">Balance transactions icon</string>
+
+    <string name="hint_dd_year">Year</string>
+    <string name="hint_dd_month">Month</string>
+    <string name="hint_dd_type">Type</string>
+    <string name="hint_dd_category">Category</string>
+
+</resources>

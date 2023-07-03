@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+    <TextView
+        android:id="@+id/tvOpenDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+
+        android:text="@string/dialog_date"
+        android:textAlignment="textEnd"
+        style="@style/TextAppearance.Title.Medium"/>
+
+    <TextView
+        android:id="@+id/tvOpenDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+
+        android:text="@string/dialog_description"
+
+        android:textAlignment="center"
+        style="@style/TextAppearance.Title.XL.Regular"/>
+    <TextView
+        android:id="@+id/tvOpenPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10sp"
+
+        android:text="@string/dialog_price"
+
+        android:textAlignment="center"
+        style="@style/TextAppearance.Title.XL.Regular"/>
+
+    <TextView
+        android:id="@+id/tvOpenCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+
+        android:text="@string/dialog_category"
+        android:textAlignment="center"
+        style="@style/TextAppearance.Title.Medium"/>
+
+
+</LinearLayout>

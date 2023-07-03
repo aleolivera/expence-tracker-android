@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeSummaryFragment">
+    <TextView
+        android:id="@+id/tvDateHomeSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5sp"
+        android:text="@string/home_date"
+        android:textAlignment="center"
+        style="@style/TextAppearance.Title.XL.Regular"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHomeSummary"
+            android:padding="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</LinearLayout>
