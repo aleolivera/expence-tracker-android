@@ -175,6 +175,8 @@ public class CardTransactionSummaryAdapter
             CardView c = (CardView) itemView;
             if(idType == INCOME)
                 c.setCardBackgroundColor(MaterialColors.getColor(itemView, com.google.android.material.R.attr.colorTertiaryContainer));
+            else
+                c.setCardBackgroundColor(MaterialColors.getColor(itemView, com.google.android.material.R.attr.colorPrimaryContainer));
         }
     }
 }

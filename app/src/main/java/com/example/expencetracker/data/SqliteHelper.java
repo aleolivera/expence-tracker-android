@@ -79,7 +79,7 @@ public class SqliteHelper extends SQLiteOpenHelper {
 
     private void insertTransactions(SQLiteDatabase db) {
         String q1 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
-                "VALUES ('fernet',3,1,1800,'2023-02-20',1)";
+                "VALUES ('sueldo 1',9,2,25000,'2023-02-20',1)";
 
         String q2 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
                 "VALUES ('coca',3,1,600,'2023-02-20',1)";
@@ -99,6 +99,45 @@ public class SqliteHelper extends SQLiteOpenHelper {
         String q7 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
                 "VALUES ('fideos',1,1,300,'2023-05-08',1)" ;
 
+        String q8 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('sueldo 1',9,2,25000,'2023-07-10',1)";
+
+        String q9 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('coca',3,1,600,'2023-07-10',1)";
+
+        String q10 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('sprite',3,1,2000,'2023-07-10',1)";
+
+        String q11 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('gancia',3,1,1600,'2023-07-11',1)";
+
+        String q12 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('sueldo mayo',9,2,80000,'2023-07-11',1)";
+
+        String q13 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('vagabond manga',3,1,2000,'2023-07-12',1)";
+
+        String q14 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('fideos',1,1,300,'2023-07-12',1)" ;
+
+        String q15 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('sueldo 1',9,2,25000,'2023-07-13',1)";
+
+        String q16 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('sprite',3,1,2000,'2023-07-13',1)";
+
+        String q17 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('gancia',3,1,1600,'2023-07-14',1)";
+
+        String q18 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('sueldo mayo',9,2,80000,'2023-07-15',1)";
+
+        String q19 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('vagabond manga',3,1,2000,'2023-07-16',1)";
+
+        String q20 = "INSERT INTO transactions (description,category_id,type_id,price,date,state) " +
+                "VALUES ('fideos',1,1,300,'2023-07-16',1)" ;
+
         db.execSQL(q1);
         db.execSQL(q2);
         db.execSQL(q3);
@@ -106,6 +145,19 @@ public class SqliteHelper extends SQLiteOpenHelper {
         db.execSQL(q5);
         db.execSQL(q6);
         db.execSQL(q7);
+        db.execSQL(q8);
+        db.execSQL(q9);
+        db.execSQL(q10);
+        db.execSQL(q11);
+        db.execSQL(q12);
+        db.execSQL(q13);
+        db.execSQL(q14);
+        db.execSQL(q15);
+        db.execSQL(q16);
+        db.execSQL(q17);
+        db.execSQL(q18);
+        db.execSQL(q19);
+        db.execSQL(q20);
     }
 
     @Override
